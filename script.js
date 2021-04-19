@@ -153,7 +153,7 @@ function fim(){
     if(vencedor == 'X'){
         var fim =  document.createElement('div')
         var botao = document.createElement('input')
-        var x = document.createElement('h1')
+        var x = document.createElement('h2')
         x.innerHTML = 'Jogador X ganhou'
         botao.setAttribute('type', 'button')
         botao.setAttribute('value', 'Jogar Novamente')
@@ -166,7 +166,7 @@ function fim(){
     }else if(vencedor == 'O'){
         var fim =  document.createElement('div')
         var botao = document.createElement('input')
-        var x = document.createElement('h1')
+        var x = document.createElement('h2')
         x.innerHTML = 'Jogador O ganhou'
         botao.setAttribute('type', 'button')
         botao.setAttribute('value', 'Jogar Novamente')
