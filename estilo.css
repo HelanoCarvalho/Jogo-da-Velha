@@ -1,0 +1,73 @@
+body{
+    background-color: #B1D4E0;
+}
+
+#jogo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+.linha{
+    border-bottom: solid 1px black;
+    border-color: rgb(0, 0, 0);
+    width: 304px;
+    height: 99px;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100%;
+    border-right: solid 1px black;
+    border-color: rgb(0, 0, 0);
+    float: left;
+    background-repeat: no-repeat;
+    background-position: 20px;
+}
+
+#quadrado3{
+    border-right: none;
+}
+
+#quadrado6{
+    border-right: none;
+}
+
+#quadrado9{
+    border-right: none;
+}
+
+#ultima{
+    border-bottom: none;
+}
+
+#fim{
+    position: absolute;
+    background-color: #145DA0;
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+
+input{
+    color: rgba(255, 255, 255, 0.575);
+    background-color: #145DA0;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 60px;
+    border: solid 1px white;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 15pt;
+}

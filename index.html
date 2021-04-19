@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+
+   <div id="jogo">
+
+    <div class="linha">
+        <div class="quadrado" id="quadrado1" onclick="jogar1();fim()"></div>
+        <div class="quadrado" id="quadrado2" onclick="jogar2();fim()"></div>
+        <div class="quadrado" id="quadrado3" onclick="jogar3();fim()"></div>
+    </div>
+
+    <div class="linha">
+        <div class="quadrado" id="quadrado4" onclick="jogar4();fim()"></div>
+        <div class="quadrado" id="quadrado5" onclick="jogar5();fim()"></div>
+        <div class="quadrado" id="quadrado6" onclick="jogar6();fim()"></div>
+
+    </div>
+
+    <div class="linha" id="ultima">
+        <div class="quadrado" id="quadrado7" onclick="jogar7();fim()"></div>
+        <div class="quadrado" id="quadrado8" onclick="jogar8();fim()"></div>
+        <div class="quadrado" id="quadrado9" onclick="jogar9();fim()"></div>
+
+    </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
